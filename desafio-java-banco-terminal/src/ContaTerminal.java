@@ -28,3 +28,7 @@ public class ContaTerminal {
 
     }
 }
+
+# ContaTerminal - Aplicação Java
+
+Esta é uma aplicação Java simples que simula um processo de criação de conta bancária via terminal. A aplicação solicita ao usuário que insira detalhes de sua conta, como número da conta, agência, nome do cliente e saldo inicial. Após o usuário inserir todas as informações necessárias, uma mensagem de confirmação é exibida.
