@@ -1,18 +1,22 @@
-## Getting Started
+# Projeto Contador em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um aplicativo Java simples que solicita ao usuário a entrada de dois números e realiza uma operação de contagem.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O aplicativo solicita ao usuário que insira dois números. Em seguida, realiza uma operação de contagem do primeiro número até o segundo. Se o primeiro número for maior que o segundo, ele lançará uma `ParametrosInvalidosException`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Compile o arquivo Java: `javac Contador.java`
+2. Execute o arquivo Java compilado: `java Contador`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Você será solicitado a inserir dois números. Insira o primeiro número, pressione enter, depois insira o segundo número e pressione enter novamente.
 
-## Dependency Management
+## Tratamento de exceções
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O aplicativo possui uma exceção personalizada `ParametrosInvalidosException` que é lançada quando o primeiro número inserido pelo usuário é maior que o segundo. Nesse caso, o aplicativo exibirá uma mensagem: "O segundo parâmetro deve ser maior que o primeiro."
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
